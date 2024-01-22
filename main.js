@@ -16,7 +16,7 @@ document.getElementById('addButton').addEventListener('click', () => {
 const createStatusButton = (status) => {
   const statusButton = document.createElement('button');
   statusButton.innerText = status;
-  // ステータスボタンのクリックイベントをここに追加することができます
+
   return statusButton;
 };
 
